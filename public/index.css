@@ -1,0 +1,904 @@
+/* START OF PAGE1 STYLE RULE */
+/* Start of navigation style rule */
+.container {
+    /* page1 navigation section */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% auto;
+}
+
+.nav-container {
+    width: 60%;
+    display: flex;
+}
+
+.mobile-nav {
+    width: 100%;
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icon-container {
+    width: 40%;
+    display: flex;
+}
+
+.link-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0.2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.connect-btn {
+    width: 20%;
+    margin: 0 10%;
+    padding: 0.2% 0;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+/* End of navigation style rule */
+
+/* start of page1 header style rule */
+.header {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.h-column-aligned {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-top-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 2%;
+}
+
+.h-first {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-text-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.h-text-container .h-header {
+    font-size: 3rem;
+}
+
+.h-text-container .h-paragraph {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+
+.h-search {
+    width: 100%;
+    margin: auto
+}
+
+.h-form {
+    width: 100%;
+    margin: 0;
+}
+
+.h-form .text-input {
+    width: 50%;
+    padding: 1.5% 2%;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.4rem;
+}
+
+.h-form .text-input:focus {
+    outline: none;
+}
+
+.h-form .s-btn {
+    width: 40%;
+    padding: 1.5% 2%;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.4rem;
+    background-color: #A02279;
+    color: #fff;
+}
+
+.h-form .s-btn:hover {
+    cursor: pointer;
+}
+
+.h-second {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin: auto;
+}
+
+.img-absolute {
+    width: 100%;
+    display: flex;
+}
+
+.img-absolute .absolute-1, .img-absolute .absolute-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-absolute .absolute-1 {
+    top: 40%;
+    position: absolute;
+    right: 21%;
+}
+
+.img-absolute .absolute-2 {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.h-image+.h-image {
+    margin: 2%;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    background-color: #A02279;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* End of Page1 Header style rule */
+
+/* start of Page1 Body style rule */
+.b-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-header {
+    width: 60%;
+    margin: 2% auto;
+    padding: 0.8%;
+}
+
+.b-heading-text {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.general-thumbnail-container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.b-thumbnail-container {
+    width: 22%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(124.4deg, #fafafa 10.8%, #fcfcfc 87.34%);
+    border-radius: 10%;
+    border: 2px solid #f5f5f5;
+}
+
+.thumbnail-img {
+    width: 95%;
+    height: 55%;
+    margin: auto;
+}
+
+.thumbnail-text-container {
+    width: 100%;
+    display: flex;
+}
+
+.first-text-set {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;
+    padding: 2%;
+}
+
+.second-text-set {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.b-bottom-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #A02279;
+    align-items: center;
+}
+
+.b-bottom-text-container {
+    width: 40%;
+    padding: 5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.b-bottom-header {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.b-bottom-text {
+    color: #fff;
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+
+.b-bottom-btn {
+    width: 50%;
+    background-color: #fff;
+    color: #A02279;
+    padding: 1.8%;
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.b-bottom-btn:hover {
+    cursor: pointer;
+}
+
+.b-bottom-img {
+    width: 60%;
+}
+
+/* End of body section style rule */
+
+/* Start of footer section style rule */
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #1D1D1E;
+    padding: 5%;
+}
+
+.f-first, .f-second, .f-third, .f-fourth {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-first {
+    margin: auto;
+}
+
+.logo-container1, .logo-container2 {
+    margin-bottom: 15%;
+}
+
+.logo-container2 {
+    display: flex;
+}
+
+.img-logo {
+    margin: 0 6%;
+}
+
+.logo-container3 .img-logo {
+    margin: 0 1%;
+}
+
+.f-header {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.f-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.f-links {
+    color: #fff;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+/* style rule for responsiveness larger screen sizes */
+@media screen and (min-width: 1024px) {
+
+    /* navigation section */
+    .container {
+        width: 90%;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .nav-container {
+        width: 100%;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .icon-container {
+        width: 35%;
+    }
+
+    .link-container {
+        width: 100%;
+    }
+
+    /* End of navigation section */
+
+    /* Start of header style rule */
+    .header {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .h-column-aligned {
+        width: 100%;
+        height: 100%;
+    }
+
+    .h-top-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .h-first {
+        width: 60%;
+        height: 100%;
+    }
+
+    .h-text-container {
+        width: 80%;
+        height: 100%;
+    }
+
+    .h-second {
+        width: 40%;
+        height: 100%;
+    }
+
+    .img-absolute .absolute-1 {
+        top: 40%;
+        position: absolute;
+        right: 25%;
+    }
+
+    .img-absolute .absolute-2 {
+        position: absolute;
+        right: 2%;
+        top: 20%;
+    }
+
+    /* End of responsive styling for Header section */
+
+    /* Start of responsive styling for Page1 body section */
+    .b-section {
+        width: 100%;
+    }
+
+    .b-header {
+        width: 60%;
+    }
+
+    .general-thumbnail-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .b-thumbnail-container {
+        width: 22%;
+    }
+
+    .thumbnail-img {
+        width: 95%;
+        height: 55%;
+        margin: auto;
+    }
+
+    .thumbnail-text-container {
+        width: 100%;
+    }
+
+    .first-text-set {
+        width: 50%;
+        display: flex;
+    }
+
+    .second-text-set {
+        width: 50%;
+    }
+
+    .b-bottom-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .b-bottom-text-container {
+        width: 30%;
+    }
+
+    .b-bottom-img {
+        width: 70%;
+    }
+
+    /* End of page1 body section responsve styling */
+
+    /* Start of footer responsive styling */
+    .footer {
+        width: 100%;
+    }
+
+    .f-first, .f-second, .f-third, .f-fourth {
+        width: 25%;
+    }
+
+    .img-logo {
+        margin: 0 6%;
+    }
+
+    .logo-container3 .img-logo {
+        margin: 0 1%;
+    }
+}
+
+/* End of style rule for larger screen sizes */
+
+/* style rule for responsiveness medium screen sizes */
+@media screen and (max-width: 1023px) {
+
+    /* navigation section */
+    .container {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile-nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger {
+        position: absolute;
+        right: 0;
+        top: -2.5%;
+        color: #A02279;
+    }
+
+    #close {
+        color: #A02279;
+    }
+
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 1.5rem;
+        padding: 0 5%;
+    }
+
+    .icon-container {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .link-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 2% 18%;
+    }
+
+    .links {
+        font-size: 0.8rem;
+        padding: 3%;
+        margin: 2%;
+        font-size: 1.2rem;
+    }
+
+    .connect-btn {
+        width: 50%;
+    }
+
+    /* Header section style rule */
+    .header {
+        max-width: 100vw;
+        height: 95vh;
+        overflow-x: hidden;
+    }
+
+    .h-column-aligned {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .h-top-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .h-first {
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .h-text-container {
+        width: 80%;
+        height: 100%;
+    }
+
+    .h-second {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-absolute {
+        width: 90%;
+        margin: 0;
+        padding: 2%;
+        justify-content: space-around;
+    }
+
+    .img-absolute .absolute-1 {
+        position: static;
+    }
+
+    .img-absolute .absolute-2 {
+        position: static;
+    }
+
+    .h-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .tab {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* End of Header responsive style rule */
+
+    /* Start of page1 body section style */
+    .b-thumbnail-container {
+        width: 46%;
+        margin: auto;
+    }
+
+    .b-bottom-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .b-bottom-text-container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .b-bottom-header {
+        font-size: 3rem;
+    }
+
+    .b-bottom-text {
+        font-size: 1.5rem;
+    }
+
+    .b-bottom-img {
+        width: 85%;
+        margin: auto;
+    }
+    /* End of Page1 Body section responsiveness style rule */
+
+    /* Start of footer section responsiveness style rule */
+    .footer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .f-first, .f-second, .f-third, .f-fourth {
+        width: 95%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 5%;
+    }
+
+    .img-logo {
+        margin: 0 6%;
+    }
+
+    .logo-container3 .img-logo {
+        margin: 0 1%;
+    }
+    /* End of footer section style rule for responsiveness */
+}
+
+/* End of style rule for mediom screen sizes */
+
+/* style rule for responsiveness smaler screen sizes */
+@media screen and (max-width:767px) {
+
+    /* navigation section */
+    .container {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile-nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger {
+        position: absolute;
+        right: 0%;
+        top: -2.5%;
+        color: #A02279;
+    }
+
+    #close {
+        color: #A02279;
+    }
+
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 1.5rem;
+        padding: 0 5%;
+    }
+
+    .icon-container {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .link-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 2% 18%;
+    }
+
+    .links {
+        font-size: 0.8rem;
+        padding: 3%;
+        margin: 2%;
+        font-size: 1.2rem;
+    }
+
+    .connect-btn {
+        width: 50%;
+    }
+
+    /* End of navigation section */
+
+    /* Start of page1 Header responsive style rule */
+    .header {
+        max-width: 100vw;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .h-column-aligned {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .h-top-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .h-first {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .h-text-container {
+        width: 100%;
+        height: 100%;
+        font-size: 0.8rem;
+    }
+
+    .h-paragraph {
+        font-size: 0.8rem;
+    }
+
+    .h-second {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-absolute {
+        width: 80%;
+        margin: auto;
+        margin: 0;
+        padding: 5%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-absolute .absolute-1 {
+        position: static;
+    }
+
+    .img-absolute .absolute-2 {
+        position: static;
+    }
+
+    .absolute-2 {
+        margin-top: 15%;
+    }
+
+    .h-image {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+
+    .h-image+.h-image {
+        margin-top: 8%;
+    }
+
+    .tab {
+        width: 100%;
+    }
+
+    .tab img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* End of header section responsiveness style rule */
+
+    /* Start of body section responsiveness style rule */
+    .b-header {
+        width: 95%;
+        margin: auto;
+    }
+
+    .b-heading-text {
+        font-size: 1.5rem;
+    }
+
+    .b-thumbnail-container {
+        width: 85%;
+        margin: 4% auto;
+    }
+
+    .thumbnail-img {
+        height: 65%;
+    }
+
+    .b-bottom-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .b-bottom-text-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .b-bottom-header {
+        font-size: 3rem;
+    }
+
+    .b-bottom-text {
+        font-size: 1.5rem;
+    }
+
+    .b-bottom-img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .b-bottom-img img {
+        width: 90%;
+    }
+    /* End of page1 Body style rule for responsiveness */
+
+    /* Start of footer section responsiveness style rule */
+    .footer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .f-first, .f-second, .f-third, .f-fourth {
+        width: 95%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 5%;
+    }
+
+    f-header{
+        font-size: 1.5rem;
+    }
+
+    .img-logo {
+        margin: 0 6%;
+    }
+
+    .logo-container3 .img-logo {
+        margin: 0 1%;
+    }
+}
+
+/* End of style rule for smaller screen sizes */
+/* End of page1 style rule */
