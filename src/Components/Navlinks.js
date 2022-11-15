@@ -10,7 +10,7 @@ export default function Navlinks(props) {
             <Link to="/">Home</Link>
           </li>
           <li className="links" onClick={props.isMobile && props.closeNav}>
-            <Link to="/places">Places To Stay</Link>
+            <Link to="/PlacesToStay">Places To Stay</Link>
           </li>
           <li className="links" onClick={props.isMobile && props.closeNav}>
             <Link to="/nfts">Nft</Link>

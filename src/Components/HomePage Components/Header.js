@@ -15,7 +15,8 @@ export default function Header() {
           <div className="h-first">
             <div className="h-text-container">
               <h1 className="h-header">
-                Rent a Place away from Home in the Metaverse
+                Rent a <span className="coloured">Place</span> away from <span className="coloured">
+                  Home</span> in the <span className="coloured">Metaverse</span>
               </h1>
               <p className="h-paragraph">
                 We provide you Lukury and access to affordable houses in the
