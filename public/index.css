@@ -63,8 +63,6 @@ a {
 /* start of page1 header style rule */
 .header {
     width: 100%;
-    height: 90vh;
-    overflow: hidden;
 }
 
 .h-column-aligned {
@@ -83,7 +81,7 @@ a {
 }
 
 .h-first {
-    width: 80%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -139,38 +137,21 @@ a {
 }
 
 .h-second {
-    width: 35%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 2%;
     margin: auto;
 }
 
 .img-absolute {
     width: 100%;
-    display: flex;
 }
 
-.img-absolute .absolute-1, .img-absolute .absolute-2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.img-absolute .absolute-1 {
-    top: 40%;
-    position: absolute;
-    right: 21%;
-}
-
-.img-absolute .absolute-2 {
-    position: absolute;
-    right: 5%;
-    top: 20%;
-}
-
-.h-image+.h-image {
-    margin: 2%;
+.group-img{
+    width: 80%;
+    margin: auto;
 }
 
 .tab {
@@ -381,7 +362,6 @@ a {
     /* Start of header style rule */
     .header {
         width: 100%;
-        height: 95vh;
     }
 
     .h-column-aligned {
@@ -406,19 +386,10 @@ a {
 
     .h-second {
         width: 40%;
-        height: 100%;
     }
 
-    .img-absolute .absolute-1 {
-        top: 40%;
-        position: absolute;
-        right: 25%;
-    }
-
-    .img-absolute .absolute-2 {
-        position: absolute;
-        right: 2%;
-        top: 20%;
+    .tab{
+        width: 100%;
     }
 
     /* End of responsive styling for Header section */
@@ -563,7 +534,6 @@ a {
     .header {
         max-width: 100vw;
         height: 95vh;
-        overflow-x: hidden;
     }
 
     .h-column-aligned {
@@ -591,32 +561,17 @@ a {
 
     .h-second {
         width: 100%;
-        height: 100%;
     }
 
     .img-absolute {
         width: 90%;
-        margin: 0;
-        padding: 2%;
-        justify-content: space-around;
-    }
-
-    .img-absolute .absolute-1 {
-        position: static;
-    }
-
-    .img-absolute .absolute-2 {
-        position: static;
-    }
-
-    .h-image {
-        width: 100%;
-        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: 0;
     }
 
     .tab {
         width: 100%;
-        margin: auto;
     }
 
     /* End of Header responsive style rule */
@@ -767,6 +722,8 @@ a {
         height: 100%;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-bottom: 8%;
+        justify-content: center;
     }
 
     .h-text-container {
@@ -775,45 +732,26 @@ a {
         font-size: 0.8rem;
     }
 
+    .h-header{
+        font-size: 2rem !important;
+    }
+
     .h-paragraph {
-        font-size: 0.8rem;
+        font-size: 1rem !important;
+        padding-right: 10%;
     }
 
     .h-second {
         width: 100%;
         height: 100%;
+        margin-bottom: 5%;
     }
 
     .img-absolute {
-        width: 80%;
-        margin: auto;
-        margin: 0;
-        padding: 5%;
+        width: 90%;
+        display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .img-absolute .absolute-1 {
-        position: static;
-    }
-
-    .img-absolute .absolute-2 {
-        position: static;
-    }
-
-    .absolute-2 {
-        margin-top: 15%;
-    }
-
-    .h-image {
-        width: 100%;
-        height: 50%;
-        margin: 0;
-    }
-
-    .h-image+.h-image {
-        margin-top: 8%;
+        padding: 0;
     }
 
     .tab {

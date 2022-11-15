@@ -42,31 +42,13 @@ export default function Header() {
 
           <div className="h-second">
             <div className="img-absolute">
-              <div className="absolute-1">
-                <img
-                  className="h-image"
-                  src={require("../../images/Home-Header Section/img 1.png")}
-                  alt="house.png1"
-                />
-                <img
-                  className="h-image"
-                  src={require("../../images/Home-Header Section/img 2.png")}
-                  alt="house.png2"
-                />
-              </div>
-
-              <div className="absolute-2">
-                <img
-                  className="h-image"
-                  src={require("../../images/Home-Header Section/img 3.png")}
-                  alt="house.png3" 
-                />
-                <img
-                  className="h-image"
-                  src={require("../../images/Home-Header Section/img 4.png")}
-                  alt="house.png4"
-                />
-              </div>
+              <img className="group-img"
+                src={
+                  require("../../images/Home-Header Section/img-group.svg")
+                    .default
+                }
+                alt="group.png"
+              />
             </div>
           </div>
         </div>
