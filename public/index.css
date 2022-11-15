@@ -64,9 +64,84 @@ a {
     cursor: pointer;
 }
 
-.connect-btn:hover{
+.connect-btn:hover {
     background: #fff;
     color: #A02279;
+}
+
+.modal {
+    position: absolute;
+    left: 20%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 25%;
+    padding: 5%;
+    border-radius: 2rem;
+}
+
+.modal-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.modal-b-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+.modal-img {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.modal-text {
+    margin-right: 3%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.modal-b-h {
+    font-size: 1.2rem;
+}
+
+.modal-b-btn1, .modal-b-btn2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 2%;
+}
+
+.modal-b-btn1:hover, .modal-b-btn2:hover {
+    background-color: #959DA6;
+    cursor: pointer;
+}
+
+.modal-close {
+    font-size: 1.5rem;
+}
+
+.modal-close:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.overlay {
+    background-color: rgba(64, 64, 64, 0.3);
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transform: translate(-11.75%, 25%);
+    top: -25%;
 }
 
 /* End of page1 navigation section */
@@ -114,7 +189,7 @@ a {
     cursor: pointer;
 }
 
-.p-btn:hover{
+.p-btn:hover {
     color: #A02279;
 }
 
@@ -222,9 +297,10 @@ a {
     align-items: center;
 }
 
-.coloured{
+.coloured {
     color: #A02279;
 }
+
 /* End of Page1 Header style rule */
 
 /* start of Page1 Body style rule */
@@ -332,6 +408,11 @@ a {
 }
 
 .b-bottom-btn:hover {
+    background-color: #A02279;
+    color: #fff;
+}
+
+.b-bottom-btn:hover {
     cursor: pointer;
 }
 
@@ -391,6 +472,41 @@ a {
     padding: 2%;
     font-size: 1.2rem;
 }
+
+/* Animation Style rule for coming soon pages */
+
+.body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-h1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 100%;
+    letter-spacing: 2rem;
+    text-shadow: 0 1px 0 #efefef,
+        0 2px 0 #efefef,
+        0 3px 0 #efefef,
+        0 4px 0 #efefef,
+        0 30px 5px rgba(0, 0, 0, .1);
+    animation: float 3s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float {
+    from {
+        transform: rotate(5deg);
+    }
+
+    to {
+        transform: rotate(-5deg);
+    }
+}
+
+/* End of Animation style rule for coming soon pages */
 
 /* style rule for responsiveness larger screen sizes */
 @media screen and (min-width: 1024px) {
@@ -507,6 +623,26 @@ a {
         width: 70%;
     }
 
+    .modal {
+        position: absolute;
+        left: 20%;
+        top: 25%;
+    }
+
+    .modal-b-btn1, .modal-b-btn2 {
+        width: 100%;
+    }
+
+    .overlay {
+        background-color: rgba(64, 64, 64, 0.3);
+        z-index: 4;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        transform: translate(-11.75%, 25%);
+        top: -25%;
+    }
+
     /* End of page1 body section responsve styling */
 
     /* Start of footer responsive styling */
@@ -525,6 +661,13 @@ a {
     .logo-container3 .img-logo {
         margin: 0 1%;
     }
+
+    /* Animation for coming soon responsive style rule */
+    .animated-h1 {
+        font-size: 3rem;
+    }
+
+    /* End of coming soon responsiveness style rule */
 }
 
 /* End of style rule for larger screen sizes */
@@ -692,6 +835,19 @@ a {
     .b-bottom-img {
         width: 85%;
         margin: auto;
+    }
+
+    .overlay {
+        transform: translate(0%, 25%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal {
+        width: 80%;
+        margin: auto;
+        position: static;
     }
 
     /* End of Page1 Body section responsiveness style rule */
@@ -926,6 +1082,43 @@ a {
         width: 90%;
     }
 
+    .overlay {
+        transform: translate(0%, 25%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal {
+        width: 80%;
+        margin: auto;
+        position: static;
+    }
+
+    .modal-b-container {
+        padding: 5%;
+    }
+
+    .modal-b-btn1, .modal-b-btn2 {
+        margin-top: 4%;
+    }
+
+    .modal-h {
+        font-size: 1.2rem;
+    }
+
+    .modal-close {
+        font-size: 1.2rem;
+    }
+
+    .modal-b-h {
+        font-size: 1rem;
+    }
+
+    .modal-text {
+        font-size: 1rem;
+    }
+
     /* End of page1 Body style rule for responsiveness */
 
     /* Start of footer section responsiveness style rule */
@@ -952,6 +1145,13 @@ a {
     .logo-container3 .img-logo {
         margin: 0 1%;
     }
+
+    /* Animation for coming soon responsive style rule */
+    .animated-h1 {
+        font-size: 2rem;
+    }
+
+    /* End of coming soon responsiveness style rule */
 }
 
 /* End of style rule for smaller screen sizes */

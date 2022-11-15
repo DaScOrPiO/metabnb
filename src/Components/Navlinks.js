@@ -1,7 +1,10 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import Modal from "./Modal";
+import { useState } from "react";
 
 export default function Navlinks(props) {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <>
       <nav className="nav-container">
@@ -19,9 +22,12 @@ export default function Navlinks(props) {
             <Link to="/community">Community</Link>
           </li>
         </ul>
-        <button className="connect-btn">connect wallet</button>
+        <button className="connect-btn" onClick={() => setOpenModal(true)}>
+          connect wallet
+        </button>
       </nav>
       <Outlet />
+      <Modal open={openModal} onclose={() => setOpenModal(false)}/>
     </>
   );
 }
