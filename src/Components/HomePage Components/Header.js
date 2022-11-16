@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
 export default function Header() {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState({});
 
   const change = (e) => setValue(e.target.value);
   const handleSubmit = (e) => {
     e.preventDefault();
+    e.target.reset()
   };
 
   return (
