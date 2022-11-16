@@ -228,6 +228,10 @@ a {
     margin: auto;
 }
 
+.h-header{
+    font-weight: 400;
+}
+
 .h-text-container .h-header {
     font-size: 3rem;
 }
