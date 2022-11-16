@@ -1,13 +1,13 @@
 import React from "react";
 import BodyProp from "./Body(props)";
-import thumbnail1 from "../../images/Home-Body Section/thumbnail1.svg";
-import thumbnail2 from "../../images/Home-Body Section/thumbnail2.svg";
-import thumbnail3 from "../../images/Home-Body Section/thumbnail3.svg";
-import thumbnail4 from "../../images/Home-Body Section/thumbnail4.svg";
-import thumbnail5 from "../../images/Home-Body Section/thumbnail5.svg";
-import thumbnail6 from "../../images/Home-Body Section/thumbnail6.svg";
-import thumbnail7 from "../../images/Home-Body Section/thumbnail7.svg";
-import thumbnail8 from "../../images/Home-Body Section/thumbnail8.svg";
+import img1 from "../../images/Home-Body Section/1.webp";
+import img2 from "../../images/Home-Body Section/2.webp";
+import img3 from "../../images/Home-Body Section/3.webp";
+import img4 from "../../images/Home-Body Section/4.webp";
+import img5 from "../../images/Home-Body Section/5.webp";
+import img6 from "../../images/Home-Body Section/6.webp";
+import img7 from "../../images/Home-Body Section/7.webp";
+import img8 from "../../images/Home-Body Section/8.webp";
 import image from "../../images/Home-Body Section/b-bottom.svg";
 
 export default function Body() {
@@ -17,58 +17,58 @@ export default function Body() {
         <h1 className="b-heading-text">Inspiration for your next adventure</h1>
       </div>
 
-      <div className="general-thumbnail-container">
+      <div className="general--container">
         <BodyProp
-          img={thumbnail1}
+          img={img1}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail2}
+          img={img2}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail3}
+          img={img3}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail4}
+          img={img4}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail5}
+          img={img5}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail6}
+          img={img6}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail7}
+          img={img7}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"
           fourthtext="available for 2weeks stay"
         />
         <BodyProp
-          img={thumbnail8}
+          img={img8}
           firsttext="Desert King"
           secondtext="2345km away"
           thirdtext="1MBT per night"

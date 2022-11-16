@@ -326,7 +326,7 @@ a {
     text-align: center;
 }
 
-.general-thumbnail-container {
+.general--container {
     width: 95%;
     margin: auto;
     display: flex;
