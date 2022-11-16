@@ -89,7 +89,7 @@ export default function Body() {
           </button>
         </div>
         <div className="b-bottom-img">
-          <img src={image} alt="png" />
+          <img src={image} alt="group-img" />
         </div>
       </div>
     </section>
