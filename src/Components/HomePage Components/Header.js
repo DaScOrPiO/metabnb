@@ -6,7 +6,7 @@ export default function Header() {
   const change = (e) => setValue(e.target.value);
   const handleSubmit = (e) => {
     e.preventDefault();
-    e.target.reset()
+    e.target.reset();
   };
 
   return (
@@ -16,8 +16,9 @@ export default function Header() {
           <div className="h-first">
             <div className="h-text-container">
               <h1 className="h-header">
-                Rent a <span className="coloured">Place</span> away from <span className="coloured">
-                  Home</span> in the <span className="coloured">Metaverse</span>
+                Rent a <span className="coloured">Place</span> away from{" "}
+                <span className="coloured">Home</span> in the{" "}
+                <span className="coloured">Metaverse</span>
               </h1>
               <p className="h-paragraph">
                 We provide you Lukury and access to affordable houses in the
@@ -44,11 +45,9 @@ export default function Header() {
 
           <div className="h-second">
             <div className="img-absolute">
-              <img className="group-img"
-                src={
-                  require("../../images/Home-Header Section/img-group.svg")
-                    .default
-                }
+              <img
+                className="group-img"
+                src={require("../../images/Home-Header Section/img-group.png")}
                 alt="group.png"
               />
             </div>

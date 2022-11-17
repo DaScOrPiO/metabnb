@@ -8,7 +8,7 @@ import img5 from "../../images/Home-Body Section/5.webp";
 import img6 from "../../images/Home-Body Section/6.webp";
 import img7 from "../../images/Home-Body Section/7.webp";
 import img8 from "../../images/Home-Body Section/8.webp";
-import image from "../../images/Home-Body Section/b-bottom.svg";
+import image from "../../images/Home-Body Section/b-bottom.png";
 
 export default function Body() {
   return (
