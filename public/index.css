@@ -347,6 +347,7 @@ a {
 .thumbnail-img {
     width: 95%;
     height: 55%;
+    border-radius: 5%;
     margin: auto;
 }
 
@@ -596,8 +597,8 @@ a {
     }
 
     .thumbnail-img {
-        width: 95%;
-        height: 55%;
+        width: 85%;
+        height: 40%;
         margin: auto;
     }
 
@@ -820,6 +821,11 @@ a {
     .b-thumbnail-container {
         width: 46%;
         margin: 2% auto;
+    }
+
+    .thumbnail-img{
+        width: 85%;
+        height: 50%;
     }
 
     .b-bottom-container {
@@ -1067,7 +1073,8 @@ a {
     }
 
     .thumbnail-img {
-        height: 65%;
+        width: 90%;
+        height: 50%;
     }
 
     .b-bottom-container {
